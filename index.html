@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>TDS</title>
+</head>
+<body>
+    <header class="header__container" id="header">
+        <div class="header__wrapper">
+            <div class="wrapper_left">
+                <div class="logo">
+                    <img src="./img/tds-logo/tds-logo.gif" alt="./img/tds-logo/tds-logo.gif">
+                </div>
+            </div>
+            <div class="wrapper_right">
+                <ul class="header__menu">
+                    <li>Habarlar</li>
+                    <li>Resminamalar</li>
+                    <li>Hyzmatlar</li>
+                    <li>Merkez barada</li>
+                    <li class="header__language">
+                        <select name="" id="" class="dropdown-toggle">
+                            <option value="">Türkmen</option>
+                            <option value="">English</option>
+                            <option value="">Русский</option>
+                        </select>
+                    </li>
+                </ul>
+                <div class="symbol">
+                    <img src="./img/tds-logo/2022-nysan.jpg" alt="./img/tds-logo/2022-nysan.jpg">
+                </div>
+                <div class="burger" onclick="burgerFunction(this)">
+                    <div class="burger1"></div>
+                    <div class="burger2"></div>
+                    <div class="burger3"></div>
+                </div>
+            </div>
+
+            <div class="header__burger__menu" id="burger__menu">
+                <ul>
+                    <li>Habarlar</li>
+                    <li>Resminamalar</li>
+                    <li>Hyzmatlar</li>
+                    <li>Merkez barada</li>
+                    <li class="header__language">
+                        <select name="" id="" class="dropdown-toggle">
+                            <option value="">Türkmen</option>
+                            <option value="">English</option>
+                            <option value="">Русский</option>
+                        </select>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+    </header>
+
+    <section class="section__slider">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="./img/1a. PSX_20190724_185229.jpg" alt="">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./img/8.IMG_3395.JPG" alt="">
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="./img/tds-aytakow.JPG" alt="">
+              </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <div class="btn-bg">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </div>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <div class="btn-bg">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="section__container">
+        <div class="section__container__header">
+            <div class="section__container__header__left">
+                <h3>Habarlar</h3>
+            </div>
+            <div class="section__container__header__right">
+                <a href="#all-section__container">
+                    <h3>Ähli habarlar</h3>
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                            <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div class="section__container__tab__wrapper">
+            
+            <div class="section__container__tab__card">
+                <a href="#id">
+                    <div class="section__container__tab__image">
+                        <img src="./img/prezident-1.jpg" alt="./img/prezident-1.jpg">
+                    </div>
+
+                    <div class="section__container__tab__bottom">
+                        <div class="section__container__tab__date">
+                            05.07.2022
+                        </div>
+                        <div class="section__container__tab__title">
+                            Hormatly Prezidentimiz Halkara sammitie gatnaşdy
+                        </div>
+                        <div class="section__container__tab__link">
+                            <a href="#ginishleyin">
+                                <p>Giňişleýin</p>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                        <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="section__container__tab__card">
+                <a href="#id">
+                    <div class="section__container__tab__image">
+                        <img src="./img/prezident-2.jpg" alt="./img/prezident-2.jpg">
+                    </div>
+                    <div class="section__container__tab__bottom">
+                        <div class="section__container__tab__date">
+                            10.11.2022
+                        </div>
+                        <div class="section__container__tab__title">
+                            Türkmenistanyň Prezidentiniň Hytaý Halk Respublikasynyň Başlygy bilen duşuşygy
+                        </div>
+                        <div class="section__container__tab__link">
+                            <a href="#ginishleyin">
+                                <p>Giňişleýin</p>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                        <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="section__container__tab__card">
+                <a href="#id">
+                    <div class="section__container__tab__image">
+                        <img src="./img/prezident-3.jpg" alt="./img/prezident-3.jpg">
+                    </div>
+    
+                    <div class="section__container__tab__bottom">
+                        <div class="section__container__tab__date">
+                            22.09.2022
+                        </div>
+                        <div class="section__container__tab__title">
+                            Dünýä türkmenleriniň ynsanperwer birleşiginiň duşuşygy
+                        </div>
+                        <div class="section__container__tab__link">
+                            <a href="#ginishleyin">
+                                <p>Giňişleýin</p>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                        <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <hr>
+
+    <section class="section__container">
+        <div class="section__container__header">
+            <div class="section__container__header__left">
+                <h3>Alynyp barylýan işler</h3>
+            </div>
+            <div class="section__container__header__right">
+                <a href="#all-section__container">
+                    <h3>Ähli alynyp barylýan işler</h3>
+                    <span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                            <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                        </svg>
+                    </span>
+                </a>
+            </div>
+        </div>
+
+        <div class="section__container__tab__wrapper">
+
+            <div class="section__container__tab__card work__tab__card">
+                <a href="#id">
+                    <div class="section__container__tab__image work__tab__image">
+                        <img src="./img/6.MAK_5801.jpg" alt="./img/6.MAK_5801.jpg">
+                    </div>
+    
+                    <div class="section__container__tab__bottom">
+                        <div class="section__container__tab__date">
+                            19.03.2022
+                        </div>
+                        <div class="section__container__tab__title">
+                            Awtobuslary barlagdan geçirmek
+                        </div>
+                        <div class="section__container__tab__link">
+                            <a href="#ginishleyin">
+                                <p>Giňişleýin</p>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                        <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="section__container__tab__card work__tab__card">
+                <a href="#id">
+                    <div class="section__container__tab__image work__tab__image">
+                        <img src="./img/7.MAK_5779.jpg" alt="./img/7.MAK_5779.jpg">
+                    </div>
+                    <div class="section__container__tab__bottom">
+                        <div class="section__container__tab__date">
+                            05.06.2022
+                        </div>
+                        <div class="section__container__tab__title">
+                            Awtobusyň tehniki nasazlygyny barlagdan geçirmek
+                        </div>
+                        <div class="section__container__tab__link">
+                            <a href="#ginishleyin">
+                                <p>Giňişleýin</p>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                        <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="section__container__tab__card work__tab__card">
+                <a href="#id">
+                    <div class="section__container__tab__image work__tab__image">
+                        <img src="./img/23._HES3490.jpg" alt="./img/23._HES3490.jpg">
+                    </div>
+    
+                    <div class="section__container__tab__bottom">
+                        <div class="section__container__tab__date">
+                            24.01.2022
+                        </div>
+                        <div class="section__container__tab__title">
+                            Diwanlaryn ykjamlygyny barlamak
+                        </div>
+                        <div class="section__container__tab__link">
+                            <a href="#ginishleyin">
+                                <p>Giňişleýin</p>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                        <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="section__container__tab__card work__tab__card">
+                <a href="#id">
+                    <div class="section__container__tab__image work__tab__image">
+                        <img src="./img/16.Etalon_DEM_ULE1362.jpg" alt="./img/16.Etalon_DEM_ULE1362.jpg">
+                    </div>
+    
+                    <div class="section__container__tab__bottom">
+                        <div class="section__container__tab__date">
+                            29.12.2021
+                        </div>
+                        <div class="section__container__tab__title">
+                            Önümiň agramyny barlamak üçin labaratoriýa otagynyň peýdalanyşy
+                        </div>
+                        <div class="section__container__tab__link">
+                            <a href="#ginishleyin">
+                                <p>Giňişleýin</p>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                        <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="section__container__tab__card work__tab__card">
+                <a href="#id">
+                    <div class="section__container__tab__image work__tab__image">
+                        <img src="./img/20._HES3525.jpg" alt="./img/20._HES3525.jpg">
+                    </div>
+                    <div class="section__container__tab__bottom">
+                        <div class="section__container__tab__date">
+                            13.02.2022
+                        </div>
+                        <div class="section__container__tab__title">
+                            Mebeliň hili barlaýan enjamyň peýdalanylyşy
+                        </div>
+                        <div class="section__container__tab__link">
+                            <a href="#ginishleyin">
+                                <p>Giňişleýin</p>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                        <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="section__container__tab__card work__tab__card">
+                <a href="#id">
+                    <div class="section__container__tab__image work__tab__image">
+                        <img src="./img/21._HES3512.jpg" alt="./img/21._HES3512.jpg">
+                    </div>
+    
+                    <div class="section__container__tab__bottom">
+                        <div class="section__container__tab__date">
+                            02.10.2022
+                        </div>
+                        <div class="section__container__tab__title">
+                            Ýatylýan mebeliň ýumşaklygyny barlaýan enjamyň ulanylyşy
+                        </div>
+                        <div class="section__container__tab__link">
+                            <a href="#ginishleyin">
+                                <p>Giňişleýin</p>
+                                <span>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                        <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                    </svg>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="footer__container">
+        <div class="footer__wrapper">
+            <div class="footer__menu">
+                <div class="footer__menu__header">Habarlar</div>
+                <div class="footer__menu__title">
+                    <ul>
+                        <li>Habarlar</li>
+                        <li>Täzelikler</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__menu">
+                <div class="footer__menu__header">Resminamalar</div>
+                <div class="footer__menu__title">
+                    <ul>
+                        <li>Online arza</li>
+                        <li>Nyrhlary</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__menu">
+                <div class="footer__menu__header">Hyzmatlar</div>
+                <div class="footer__menu__title">
+                    <ul>
+                        <li>TDS</li>
+                        <li>Sertifikat</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__menu">
+                <div class="footer__menu__header">Merkez barada</div>
+                <div class="footer__menu__title">
+                    <ul>
+                        <li>Türkmenstandart</li>
+                        <li>Etalon merkezi</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__menu">
+                <div class="footer__menu__header">Habarlaşmak üçin</div>
+                <div class="footer__menu__title">
+                    <ul>
+                        <li>Tel: (+993 12) 95-73-55, 95-73-56</li>
+                        <li>E-mail: dem-turkm@online.tm</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__menu">
+                <div class="footer__menu__header">Salgymyz</div>
+                <div class="footer__menu__title">
+                    <ul>
+                        <li>Türkmenistan, Aşgabat şäheri</li>
+                        <li>Oguzhan köçäniň 201-nji jaýy</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <hr class="hr">
+
+        <div class="footer__copyright">
+            <p>&copy 2022 «Türkmenstandartlary» baş döwlet gullugy</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script>
+        $('.carousel').carousel({
+            interval: 3000
+        })
+
+        window.onscroll = function() {myFunction()};
+        
+        var header = document.getElementById("header");
+        var sticky = header.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+
+        function burgerFunction(x) {
+            x.classList.toggle("change");
+
+            var burger__menu = document.getElementById("burger__menu");
+            
+            if (burger__menu.style.display === "block") {
+                burger__menu.style.display = "none";
+            } else {
+                burger__menu.style.display = "block";
+            }
+
+        }
+    </script>
+
+</body>
+</html>
