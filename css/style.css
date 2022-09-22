@@ -288,17 +288,15 @@ body {
 .footer__menu__header {
     font-weight: bold;
     padding-left: 20px;
-    border-bottom: 1px solid goldenrod;
+    border-bottom: .5px solid goldenrod;
 }
 
 .footer__menu__title ul {
     list-style: none;
     font-size: 1rem;
-    margin-top: 30px;
+    margin-top: 50px;
     padding-left: 20px;
-    padding-top: 20px;
-    margin-left: 30px;
-    border-left: 1px solid #ccc;
+    border-left: 5px solid goldenrod;
 }
 
 .hr {
@@ -306,7 +304,7 @@ body {
     margin: 0 auto;
     width: 1200px;
     margin-top: 20px;
-    background-color: goldenrod;
+    background-color: #ccc;
 }
 
 .footer__copyright {
@@ -391,6 +389,11 @@ body {
         width: 1000px;
     }
 
+    .footer__menu__header, .footer__menu__title ul {
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+
     #carouselExampleIndicators {
         height: 675px;
     }
@@ -421,6 +424,11 @@ body {
 @media only screen and (max-width: 1100px) {
     .header__container .header__wrapper, .section__container, .section__container__tab__wrapper, .footer__container .footer__wrapper {
         width: 900px;
+    }
+
+    .footer__menu__header, .footer__menu__title ul {
+        margin-top: 10px;
+        padding-left: 10px;
     }
 
     #carouselExampleIndicators {
@@ -459,6 +467,11 @@ body {
 
     .symbol {
         margin-right: 15px;
+    }
+
+    .footer__menu__header, .footer__menu__title ul {
+        margin-top: 10px;
+        padding-left: 10px;
     }
 
     #carouselExampleIndicators {
@@ -504,6 +517,11 @@ body {
     .footer__container .footer__wrapper, .section__container__tab__wrapper, .footer__container .footer__wrapper {
         flex-direction: column;
         align-items: center;
+    }
+
+    .footer__menu__header, .footer__menu__title ul {
+        margin-top: 10px;
+        padding-left: 10px;
     }
     
     #carouselExampleIndicators {
@@ -555,6 +573,11 @@ body {
         align-items: center;
     }
     
+    .footer__menu__header, .footer__menu__title ul {
+        margin-top: 10px;
+        padding-left: 10px;
+    }
+
     #carouselExampleIndicators {
         height: 350px;
     }
