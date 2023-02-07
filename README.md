@@ -1,2 +1,2 @@
 # TDS
-Türkmen Döwlet Standartlar Baş Döwlet gullugy
+"Türkmenstandartlary" Baş Döwlet Gullugy 
