@@ -1,8 +1,9 @@
+*********************************************************
+![tds-logo](https://user-images.githubusercontent.com/64286632/231982095-b8e200f5-8bdd-44cb-a6de-1245b1fcccea.png)
+*********************************************************
 # "Türkmenstandartlary" Baş Döwlet Gullugy TDS
 ["Türkmenstandartlary" Baş Döwlet Gullugy](https://tds.gov.tm/tm) click link go to official website
 [tds.gov.tm](https://tds.gov.tm/tm)
-![tds-logo](https://user-images.githubusercontent.com/64286632/231982095-b8e200f5-8bdd-44cb-a6de-1245b1fcccea.png)
-
 *********************************************************
 Sanly Hyzmatlardan peydalanyp bilersiniz                
 https://tds.gov.tm/tm/standarts
