@@ -9,6 +9,7 @@ https://tds.gov.tm/tm/standarts
 
 *****************************************************************************************
 Online gornüşde Standart (TDS) satyn almak üçin arza ugratmak mümkinçilikleri döredildi.
+
 https://tds.gov.tm/tm/fill/application/form/2
 
 *********************************************************
