@@ -11,9 +11,8 @@ Online gornüşde Standart (TDS) satyn almak üçin arza ugratmak mümkinçilikl
 https://tds.gov.tm/tm/fill/application/form/2
 
 *********************************************************
-Online gornüşde arza ugratmak mümkinçilikleri döredildi.*
-https://tds.gov.tm/tm/fill/application/form/1           *
-*********************************************************
+Online gornüşde arza ugratmak mümkinçilikleri döredildi.
+https://tds.gov.tm/tm/fill/application/form/1
 
 ****************************************************************************
 Arza ugratmak üçin https://tds.gov.tm web sahypasyna agza bolmagy unutmaň! *                                   *
