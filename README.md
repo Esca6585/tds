@@ -3,14 +3,12 @@
 [tds.gov.tm](https://tds.gov.tm/tm)
 
 *********************************************************
-Sanly Hyzmatlardan peydalanyp bilersiniz                *
-https://tds.gov.tm/tm/standarts                         *
-*********************************************************
+Sanly Hyzmatlardan peydalanyp bilersiniz                
+https://tds.gov.tm/tm/standarts
 
 *****************************************************************************************
-Online gornüşde Standart (TDS) satyn almak üçin arza ugratmak mümkinçilikleri döredildi.*
-https://tds.gov.tm/tm/fill/application/form/2                                           *
-*****************************************************************************************
+Online gornüşde Standart (TDS) satyn almak üçin arza ugratmak mümkinçilikleri döredildi.
+https://tds.gov.tm/tm/fill/application/form/2
 
 *********************************************************
 Online gornüşde arza ugratmak mümkinçilikleri döredildi.*
