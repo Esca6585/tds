@@ -1,4 +1,4 @@
-![tds-logo](https://user-images.githubusercontent.com/64286632/231982095-b8e200f5-8bdd-44cb-a6de-1245b1fcccea.png)
+<img align="center" src="https://user-images.githubusercontent.com/64286632/231984744-6926e7a1-53ff-4f97-87fd-89c0a52dde13.png" alt="tds.gov.tm" width="250px"/>
 *********************************************************
 # "Türkmenstandartlary" Baş Döwlet Gullugy TDS
 ["Türkmenstandartlary" Baş Döwlet Gullugy](https://tds.gov.tm/tm) click link go to official website
