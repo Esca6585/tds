@@ -1,4 +1,3 @@
-*********************************************************
 ![tds-logo](https://user-images.githubusercontent.com/64286632/231982095-b8e200f5-8bdd-44cb-a6de-1245b1fcccea.png)
 *********************************************************
 # "Türkmenstandartlary" Baş Döwlet Gullugy TDS
