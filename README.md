@@ -6,16 +6,17 @@
 [tds.gov.tm](https://tds.gov.tm/tm)
 *********************************************************
 Sanly Hyzmatlardan peydalanyp bilersiniz                
-https://tds.gov.tm/tm/standarts
+[https://tds.gov.tm/tm/state/standards](https://tds.gov.tm/tm/state/standards)
 
 *****************************************************************************************
 Online gornüşde Standart (TDS) satyn almak üçin arza ugratmak mümkinçilikleri döredildi.
 
-https://tds.gov.tm/tm/fill/application/form/2
+[https://tds.gov.tm/tm/digital/services](https://tds.gov.tm/tm/digital/services)
 
 *********************************************************
-Online gornüşde arza ugratmak mümkinçilikleri döredildi.
-https://tds.gov.tm/tm/fill/application/form/1
+Bizin Sanly Hyzmatlarymyzdan peýdalanyp bilersiňiz
+Online gornüşde arza ugratmak mümkinçilikleri döredildi. 
+[https://tds.gov.tm/tm/digital/services](https://tds.gov.tm/tm/digital/services)
 
 ****************************************************************************
 Arza ugratmak üçin https://tds.gov.tm web sahypasyna agza bolmagy unutmaň! *                                   *
